@@ -1,4 +1,4 @@
-[styledsite](AliasHendrickson.github.io/index.html)
+[styledsite](sitepages/index.html)
 
 **What did you learn about CSS padding, borders, and margin by doing this challenge?**
   I learned that I have a lot to learn. Borders are nice for making certain elements pop off the screen. Margins are tough. I had to force myself to move on because I was running myself in circles. I could very easily spend a day or two in CSS and not notice.
