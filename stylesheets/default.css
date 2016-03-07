@@ -1,10 +1,17 @@
+html {
+  background-color: #55e54f;
+}
+
+h1 {
+  font-family: cursive;
+}
+
 
 img {
   display: inline-block;
-  border: 2px solid green;
+  border: 2px solid black;
   width: 150px;
   height: 170px;
-  margin-left: 33px;
 }
 header {
   font-size: 130px;
@@ -14,19 +21,30 @@ header {
   float: right;
 }
 nav {
-  display: inline-block;
-  margin-left: 33px;
-  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  border-bottom: solid white;
+  margin-bottom: 2em;
 }
-a {
+nav > a {
+  border-top: solid yellow;
   font-size: 35px;
   color: blue;
   text-decoration: none;
+  position: relative;
+  margin-right: 1em;
+  margin-left: 1em;
 }
+
 a:hover {
   text-decoration: none;
   color: white;
 }
 footer {
-  margin-left: 400px;
+  width: 50%;
+  margin: auto;
+  margin-top: 2em;
+  padding-left: 17em;
+  border: solid black;
 }
+
