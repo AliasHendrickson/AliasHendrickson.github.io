@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>My Blog Template</title>
+    <meta charset="UTF-8">
+  </head>
+<body>
+  <h1>Alias Inconsequential</h1>
+  <h2>Enumerable Method: Map</h2>
+    <p>
+      Map is a method that takes an enumerable object and block, executes the block for each element in the object, then outputs the result for each object. Examples of enumerable objects that map can be called on are Arrays and Ranges, which are linear lists of objects that map can iterate through. Map can be destructive by calling "map!", meaning it destroys the original object that is run through the block, and replaces it with the object that is outputted when run through the block. Or, if we want to keep the original object intact, we can set the output of the method equal to a new enumerable object.
+    </p>
+    <p>
+      A simple example:
+      array = [1, 2, 3]
+      new_array = []
+      array.map { |n| n * n; new_array << n }
+      p new_array
+
+      This will return #=> [1, 4, 9] to the console.
+    </p>
+</body>
+<footer></foooter>
+</html>
